@@ -8,8 +8,6 @@
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
-	<key>CFBundleIconFile</key>
-	<string>Icon</string>
 	<key>CFBundleIdentifier</key>
 	<string>edu.acu.wip.CASClient</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -24,7 +22,17 @@
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSMainNibFile</key>
-	<string>MainWindow</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main_iPhone</string>
+	<key>UIMainStoryboardFile~ipad</key>
+	<string>Main_iPad</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
 </dict>
 </plist>
