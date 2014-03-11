@@ -7,36 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D3623260D0F684500981E51 /* CAS_ClientAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CAS_ClientAppDelegate.m */; };
-		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
-		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		C322EC381430CBB800176DB7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C322EC371430CBB800176DB7 /* README.md */; };
-		C3AE46A60F7BCC0000008452 /* CAS.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AE46A40F7BCC0000008452 /* CAS.m */; };
-		C3AE46A80F7BCC0B00008452 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C3AE46A70F7BCC0B00008452 /* Icon.png */; };
-		C3AE46DF0F7BD32300008452 /* cas_client_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C3AE46DE0F7BD32300008452 /* cas_client_bg.png */; };
-		C3AE47960F7C0EBA00008452 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C3AE47950F7C0EBA00008452 /* LICENSE */; };
+		B592715318C7E83B00D676D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B592715218C7E83B00D676D8 /* main.m */; };
+		B59EA19818C7B4570083185C /* CAS.m in Sources */ = {isa = PBXBuildFile; fileRef = B59EA19518C7B4570083185C /* CAS.m */; };
+		B59EA19918C7B4570083185C /* CASViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59EA19718C7B4570083185C /* CASViewController.m */; };
+		B59EA19C18C7B5490083185C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B59EA19B18C7B5490083185C /* AppDelegate.m */; };
+		B59EA19E18C7B5560083185C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B59EA19D18C7B5560083185C /* Main_iPhone.storyboard */; };
+		B59EA1A018C7B5900083185C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B59EA19F18C7B5900083185C /* Images.xcassets */; };
+		B5A20B8918C90A99009C4FD3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A20B8818C90A99009C4FD3 /* Main_iPad.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* CAS_ClientAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAS_ClientAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* CAS_ClientAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAS_ClientAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* CAS Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CAS Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* CAS_Client_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAS_Client_Prefix.pch; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C322EC371430CBB800176DB7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		C3AE46A40F7BCC0000008452 /* CAS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAS.m; sourceTree = "<group>"; };
-		C3AE46A50F7BCC0000008452 /* CAS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAS.h; sourceTree = "<group>"; };
-		C3AE46A70F7BCC0B00008452 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		C3AE46DE0F7BD32300008452 /* cas_client_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cas_client_bg.png; sourceTree = "<group>"; };
-		C3AE47950F7C0EBA00008452 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B592715018C7E82F00D676D8 /* CAS-Client-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CAS-Client-Prefix.pch"; path = "objc-cas-client/CAS Client/CAS-Client-Prefix.pch"; sourceTree = "<group>"; };
+		B592715218C7E83B00D676D8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "CAS Client/main.m"; sourceTree = SOURCE_ROOT; };
+		B592715618C7EABB00D676D8 /* CAS-Client-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; name = "CAS-Client-Info.plist"; path = "objc-cas-client/CAS Client/CAS-Client-Info.plist"; sourceTree = "<group>"; };
+		B59EA19418C7B4570083185C /* CAS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAS.h; path = "CAS Client/CAS.h"; sourceTree = SOURCE_ROOT; };
+		B59EA19518C7B4570083185C /* CAS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAS.m; path = "CAS Client/CAS.m"; sourceTree = SOURCE_ROOT; };
+		B59EA19618C7B4570083185C /* CASViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CASViewController.h; path = "CAS Client/CASViewController.h"; sourceTree = SOURCE_ROOT; };
+		B59EA19718C7B4570083185C /* CASViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CASViewController.m; path = "CAS Client/CASViewController.m"; sourceTree = SOURCE_ROOT; };
+		B59EA19A18C7B5490083185C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "CAS Client/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		B59EA19B18C7B5490083185C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "CAS Client/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		B59EA19D18C7B5560083185C /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main_iPhone.storyboard; path = "CAS Client/Main_iPhone.storyboard"; sourceTree = SOURCE_ROOT; };
+		B59EA19F18C7B5900083185C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "CAS Client/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+		B5A20B8818C90A99009C4FD3 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +52,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		080E96DDFE201D6D7F000001 /* Classes */ = {
+		080E96DDFE201D6D7F000001 /* CAS Client */ = {
 			isa = PBXGroup;
 			children = (
-				C3AE46A50F7BCC0000008452 /* CAS.h */,
-				C3AE46A40F7BCC0000008452 /* CAS.m */,
-				1D3623240D0F684500981E51 /* CAS_ClientAppDelegate.h */,
-				1D3623250D0F684500981E51 /* CAS_ClientAppDelegate.m */,
+				B59EA19D18C7B5560083185C /* Main_iPhone.storyboard */,
+				B5A20B8818C90A99009C4FD3 /* Main_iPad.storyboard */,
+				B59EA19A18C7B5490083185C /* AppDelegate.h */,
+				B59EA19B18C7B5490083185C /* AppDelegate.m */,
+				B59EA19418C7B4570083185C /* CAS.h */,
+				B59EA19518C7B4570083185C /* CAS.m */,
+				B59EA19618C7B4570083185C /* CASViewController.h */,
+				B59EA19718C7B4570083185C /* CASViewController.m */,
+				B59EA19F18C7B5900083185C /* Images.xcassets */,
+				29B97315FDCFA39411CA2CEA /* Supporting Files */,
 			);
+			name = "CAS Client";
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -75,35 +81,22 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				C322EC371430CBB800176DB7 /* README.md */,
-				C3AE47950F7C0EBA00008452 /* LICENSE */,
-				080E96DDFE201D6D7F000001 /* Classes */,
-				29B97315FDCFA39411CA2CEA /* Other Sources */,
-				29B97317FDCFA39411CA2CEA /* Resources */,
+				080E96DDFE201D6D7F000001 /* CAS Client */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
 		};
-		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+		29B97315FDCFA39411CA2CEA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				32CA4F630368D1EE00C91783 /* CAS_Client_Prefix.pch */,
-				29B97316FDCFA39411CA2CEA /* main.m */,
+				B592715618C7EABB00D676D8 /* CAS-Client-Info.plist */,
+				B592715018C7E82F00D676D8 /* CAS-Client-Prefix.pch */,
+				B592715218C7E83B00D676D8 /* main.m */,
 			);
-			name = "Other Sources";
-			sourceTree = "<group>";
-		};
-		29B97317FDCFA39411CA2CEA /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C3AE46DE0F7BD32300008452 /* cas_client_bg.png */,
-				C3AE46A70F7BCC0B00008452 /* Icon.png */,
-				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
-				8D1107310486CEB800E47090 /* Info.plist */,
-			);
-			name = Resources;
+			name = "Supporting Files";
+			path = ..;
 			sourceTree = "<group>";
 		};
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
@@ -142,7 +135,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0410;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Abilene Christian University";
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CAS Client" */;
@@ -169,11 +162,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
-				C3AE46A80F7BCC0B00008452 /* Icon.png in Resources */,
-				C3AE46DF0F7BD32300008452 /* cas_client_bg.png in Resources */,
-				C3AE47960F7C0EBA00008452 /* LICENSE in Resources */,
-				C322EC381430CBB800176DB7 /* README.md in Resources */,
+				B59EA1A018C7B5900083185C /* Images.xcassets in Resources */,
+				B59EA19E18C7B5560083185C /* Main_iPhone.storyboard in Resources */,
+				B5A20B8918C90A99009C4FD3 /* Main_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,9 +175,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* CAS_ClientAppDelegate.m in Sources */,
-				C3AE46A60F7BCC0000008452 /* CAS.m in Sources */,
+				B592715318C7E83B00D676D8 /* main.m in Sources */,
+				B59EA19C18C7B5490083185C /* AppDelegate.m in Sources */,
+				B59EA19918C7B4570083185C /* CASViewController.m in Sources */,
+				B59EA19818C7B4570083185C /* CAS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,14 +189,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = CAS_Client_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				INFOPLIST_FILE = Info.plist;
+				GCC_PREFIX_HEADER = "CAS Client/CAS-Client-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "CAS Client/CAS-Client-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "CAS Client";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -212,23 +209,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = CAS_Client_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				INFOPLIST_FILE = Info.plist;
+				GCC_PREFIX_HEADER = "CAS Client/CAS-Client-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "CAS Client/CAS-Client-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "CAS Client";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -237,11 +239,11 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 			};
 			name = Release;
