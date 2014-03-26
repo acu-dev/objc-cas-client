@@ -19,4 +19,4 @@ How It Works
 
 License
 ---
-See the LICENSE file
+See the [LICENSE](https://github.com/acu-dev/objc-cas-client/blob/master/LICENSE) file
