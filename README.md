@@ -1,9 +1,21 @@
-CAS Client
-=========
+Jasig CAS Client
+=============
+`Jasig CAS Client` demonstrates authentication using the [Jasig CAS RESTful API](https://wiki.jasig.org/display/CASUM/RESTful+API) within an iOS application.
 
-This app demonstrates use of the CAS.h/CAS.m class to authenticate a user with a given CAS server and various services. The process begins by authenticating a user with a CAS server and request a TGT (ticket granting ticket). The TGT can then be used to request an ST (service ticket) for individual services. Services that are correctly configured with the CAS filters will validate the ST against the CAS server and grant access.
+Using the packaged iOS application
+---
+Update the following variables found in the `authenticate` method within `CAS Client/CASViewController.m` to use valid credentials and Jasig CAS server:
+* `username`
+* `password`
+* `casServer`
+* `casRestletPath`
 
-Implementation
---------------
+How It Works
+---
+# `CAS.m`:`requestTGTWithUsername` submits credentials to the Jasig CAS RESTful API expecting either a `TicketGrantingTicket` or failed authentication response.
+# `CAS.m`:`requestSTForService` submits `TicketGrantingTicket` to Jasig CAS RESTful API expecting either a `ServiceTicket` or unsuccessful response.
+# `ServiceTicket` appended on CAS protected URIs (e.g. http://localhost/protected/index.html?ticket=ST-1-FFDFHDSJKHSDFJKSDHFJKRUEYREWUIFSD2132)
 
-Copy the CAS.h and CAS.m files into your app and use them in a similar fashion as this app.
+License
+---
+See the LICENSE file
