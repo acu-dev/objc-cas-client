@@ -12,9 +12,10 @@ Update the following variables found in the `authenticate` method within `CAS Cl
 
 How It Works
 ---
-# `CAS.m`:`requestTGTWithUsername` submits credentials to the Jasig CAS RESTful API expecting either a `TicketGrantingTicket` or failed authentication response.
-# `CAS.m`:`requestSTForService` submits `TicketGrantingTicket` to Jasig CAS RESTful API expecting either a `ServiceTicket` or unsuccessful response.
-# `ServiceTicket` appended on CAS protected URIs (e.g. http://localhost/protected/index.html?ticket=ST-1-FFDFHDSJKHSDFJKSDHFJKRUEYREWUIFSD2132)
+
+1. `CAS.m`:`requestTGTWithUsername` submits credentials to the Jasig CAS RESTful API expecting either a `TicketGrantingTicket` or failed authentication response.
+2. `CAS.m`:`requestSTForService` submits `TicketGrantingTicket` to Jasig CAS RESTful API expecting either a `ServiceTicket` or unsuccessful response.
+3. `ServiceTicket` appended on CAS protected URIs (e.g. http://localhost/protected/index.html?ticket=ST-1-FFDFHDSJKHSDFJKSDHFJKRUEYREWUIFSD2132)
 
 License
 ---
