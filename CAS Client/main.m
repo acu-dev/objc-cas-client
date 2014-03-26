@@ -1,13 +1,8 @@
+//  Copyright (c) 2014, Abilene Christian University
+//  All rights reserved.
 //
-//  main.m
-//  CAS Client
-//
-//  Created by Chris Gibbs on 3/26/09.
-//  Copyright Abilene Christian University 2009. All rights reserved.
-//
-
+//  Latest changes available through git repository at https://github.com/acu-dev/objc-cas-client
 #import <UIKit/UIKit.h>
-
 #import "AppDelegate.h"
 
 int main(int argc, char * argv[])

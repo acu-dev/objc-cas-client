@@ -1,11 +1,3 @@
-//
-//  CAS.m
-//  CAS Client
-//
-//  Created by Chris Gibbs on 3/23/09.
-//  Copyright Abilene Christian University 2009. All rights reserved.
-//
-
 #import "CAS.h"
 
 @implementation CAS

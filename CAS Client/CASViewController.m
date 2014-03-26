@@ -1,11 +1,3 @@
-//
-//  CASViewController.m
-//  CAS Client
-//
-//  Created by Andrew Clissold on 3/5/14.
-//  Copyright (c) 2014 Abilene Christian University. All rights reserved.
-//
-
 #import "CASViewController.h"
 #import "CAS.h"
 
