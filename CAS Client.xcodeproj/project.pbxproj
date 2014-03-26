@@ -35,7 +35,7 @@
 		B59EA19B18C7B5490083185C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "CAS Client/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
 		B59EA19D18C7B5560083185C /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main_iPhone.storyboard; path = "CAS Client/Main_iPhone.storyboard"; sourceTree = SOURCE_ROOT; };
 		B59EA19F18C7B5900083185C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "CAS Client/Images.xcassets"; sourceTree = SOURCE_ROOT; };
-		B5A20B8818C90A99009C4FD3 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = SOURCE_ROOT; };
+		B5A20B8818C90A99009C4FD3 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main_iPad.storyboard; path = "CAS Client/Main_iPad.storyboard"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
